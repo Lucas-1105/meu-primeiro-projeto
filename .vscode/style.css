@@ -5,6 +5,8 @@
 }
 
 body {
+  background: var(--bg-url) no-repeat top center/cover;
+  heidht: 100vh;
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -99,3 +101,10 @@ border-radius: 50%
   background: rgba(255, 255, 255, 0.2);
 }
 
+/* media queries */
+@media (wom-width: 700px) {
+ :root {
+  --bg-url: url(./assets/bg-desktop.jpg);
+ }
+
+}
